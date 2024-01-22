@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+                <input type="text" id="display" readonly>
+                <div class="buttons">
+                  <button onclick="clearDisplay()">AC</button>
+                  <button onclick="deleteDigit()">DE</button>
+                  <button onclick="showToDisplay('*')">*</button>
+                  <button onclick="showToDisplay('/')">/</button>
+                  <button onclick="showToDisplay('7')">7</button>
+                  <button onclick="showToDisplay('8')">8</button>
+                  <button onclick="showToDisplay('9')">9</button>
+                  <button onclick="showToDisplay('-')">-</button>
+                  <button onclick="showToDisplay('4')">4</button>
+                  <button onclick="showToDisplay('5')">5</button>
+                  <button onclick="showToDisplay('6')">6</button>
+                  <button onclick="showToDisplay('+')">+</button>
+                  <button onclick="showToDisplay('1')">1</button>
+                  <button onclick="showToDisplay('2')">2</button>
+                  <button onclick="showToDisplay('3')">3</button>
+                  <button onclick="showToDisplay('.')">.</button>
+                  <button onclick="showToDisplay('0')">0</button>
+                  <button onclick="showToDisplay('00')">00</button>
+                  <button class="button-calculate" onclick="calculate()">=</button>
+            </div>
+        </div>
+</body>
+</html>
